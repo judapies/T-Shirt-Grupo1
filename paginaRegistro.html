@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Iniciar sesión</title>
+            <meta name="description" content="Ropa y zapatos, equipamiento y accesorios deportivos. En SympHony encontrará toda la inspiración de moda y las últimas tendencias online.">
+            <meta name="keywords" content="Ropa de Mujer y Hombre, Comprar Moda Online  SympHony">
+            <meta name="robots" content="index"> 
+            <meta name="author" content="G06-Stuar Lozano">
+            <meta name="copyright" content="G06-Grupo1">
+
+            <link rel="icon" href="images/company-icon.ico">
+            <link rel="stylesheet" href="./css/bootstrap.css">
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Open Header -->
+        <header>
+            <!-- Open Menu -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <!-- fixed-top -->
+                <div class="container-fluid">
+                    <div class="container-fluid p-1 m-1 w-auto">
+                        <a class="navbar-brand p-0 mx-0" href="paginaPrincipal.html">
+                            <img src="images/company-logo.jpg" alt="login" width="30px" height="30px" class="d-inline-block align-text-top">
+                            SympHony
+                        </a>
+                    </div>
+
+                    <div class="bd-navbar-toggle">
+                        <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="paginaPrincipal.html">Inicio</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tienda
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Hombre</a></li>
+                                    <li><a class="dropdown-item" href="#">Mujer</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre nosotros</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Servicio al cliente</a>
+                            </li>
+                        </ul>
+
+                        <form class="d-flex me-auto" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+
+                    <div class="container-fluid p-1 m-1 w-auto">
+                        <a class="navbar-brand p-0 mx-0" href="paginaLogin.html">
+                            <img src="images/login-icon.png" alt="login" width="30px" height="30px" class="d-inline-block align-text-top">
+                            Acceder
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Menu -->
+        </header>
+        <!-- End Header -->
+
+        <!-- Open Main -->
+        <main>
+            <div class="container-fluid w-auto m-3 p-3">
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col text-center px-5 my-3">
+                            <h2 class="fw-bold mb-4">
+                                CREAR UNA CUENTA
+                            </h2>
+                            <div class="container-fluid w-25">
+                                <hr class="divider mt-0 mb-4">
+                            </div>
+
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-floating mb-4">
+                                            <input type="text" class="form-control" id="floatingFirstName" placeholder="First name">
+                                            <label for="floatingFirstName">Nombre</label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-floating mb-4">
+                                            <input type="text" class="form-control" id="floatingLastName" placeholder="Last name">
+                                            <label for="floatingLastName">Apellido</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Correo electrónico</label>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Contraseña</label>
+                                </div>
+                                
+                                <div class="container-fluid mb-4">
+                                    <p class="container">
+                                        Al hacer clic en "Registrarte", aceptas nuestras <a href="#" class="text-decoration-none link-success">Condiciones</a>, <a href="#" class="text-decoration-none link-success">la Política de privacidad</a> y <a href="#" class="text-decoration-none link-success">la Política de cookies</a>.
+                                    </p>
+                                </div>
+
+                                <button type="submit" class="btn btn-dark">Registrarte</button>
+                            </div>
+                             
+                            <div class="container-fluid w-auto text-center m-3">
+                                <a href="paginaLogin.html" class="link-dark fw-light">¿Ya tienes una cuenta?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- End Main -->
+
+        <!-- Open Footer -->
+        <footer>
+            <div class="container-fluid bg-dark w-auto">
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col px-5 my-3 text-center">
+                            <p class=" fs-6 text-white fw-light mb-4">
+                                SIGUE CONECTADO
+                            </p>
+                            <div class="container">
+                                <a class="container p-1 m-1" href="#">
+                                    <img src="images/icon-facebook.webp" alt="logo facebook" class="img-fluid">
+                                </a>
+                                <a class="container p-1 m-1" href="#">
+                                    <img src="images/icon-twitter.webp" alt="logo twitter" class="img-fluid">
+                                </a>
+                                <a class="container p-1 m-1" href="#">
+                                    <img src="images/icon-instagram.webp" alt="logo instagram" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col text-center px-5 my-3">
+                            <p class="fs-6 text-white fw-light mb-4">
+                                MANTENTE AL DÍA
+                            </p>
+                            <div class="form-floating d-grid gap-2">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email aquí*</label>
+                                <button type="submit" class="btn btn-outline-success">Unirse</button>
+                              </div>
+                        </div>
+                        <div class="col text-center px-5 my-3">
+                            <p class="fs-6 text-white fw-light mb-4">
+                                ¿NECESITAS AYUDA?
+                            </p>
+                            <div class="container text-white">
+                                <P class="m-0">914-123-456</P>
+                            </div>
+                            <div class="container text-white">
+                                <P>info@misitio.com</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid bg-dark w-auto text-center pb-4">
+                    <p class="continer text-white fw-light m-0">
+                        © 2023 hecho para SympHony. Creado con <a href="https://getbootstrap.com/" class="link-success">Bootstrap.com</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </body>
+</html> 
