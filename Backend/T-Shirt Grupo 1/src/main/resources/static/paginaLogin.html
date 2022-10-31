@@ -187,14 +187,14 @@
             let correo=document.getElementById('correo').value
             let contrasena=document.getElementById('contrasena').value
             console.log(correo+" "+contrasena)
-            fetch("http://localhost:9011/usuarios/login?correo="+correo+"&contrasena="+contrasena+"")
+            fetch("http://150.136.233.126:8080/tienda/usuarios/login?correo="+correo+"&contrasena="+contrasena+"")
             .then(response => response.json())
             .then(data => {
                 if(data.msj=="ok"){
                     if(data.tipo==1){
                         document.location="index.html"
                     }else{
-                        document.location="registroUsuarios.html"
+                        document.location="registroProductos.html"
                     }    
                 }else{
                     alert(data.msj)

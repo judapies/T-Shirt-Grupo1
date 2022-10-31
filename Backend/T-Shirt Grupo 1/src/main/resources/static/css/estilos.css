@@ -1,0 +1,87 @@
+h1{
+    color: green;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h2{
+    color: red;
+    font-family:'Courier New', Courier, monospace
+}
+h3{
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    font-size: large;
+}
+footer{
+    background-color: darkslategray;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-pie li{
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#nav-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: orange;
+}
+nav{
+    background-color: blue;
+    margin-top: -15px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0px 150px 0px 20px;
+    
+}
+aside{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; 
+    width:30%;
+    color: chocolate;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+}
+a{
+    color: gray;
+}
+.par-estilo{
+    text-align: center;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    text-align: justify;
+}
+p strong{
+    color: #aaaaaa;
+}
+#primero ,#segundo{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#publicidad{
+    color: orange;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+}

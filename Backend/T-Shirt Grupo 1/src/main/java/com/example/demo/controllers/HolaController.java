@@ -4,18 +4,20 @@
  */
 package com.example.demo.controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
  * @author DELL
  */
-@RestController
+@Controller
 //@RequestMapping("/url")
 public class HolaController {
-    @GetMapping("/")
+    @RequestMapping("/")
     public String endPoint(){
-        return "Hola Mundo";
+        return "index.html";
     }
 }
